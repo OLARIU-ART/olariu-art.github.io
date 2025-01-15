@@ -316,7 +316,7 @@
                         <td height="70">
                             <div align="center">
                                 <font size="2">
-                                    Ruxandra Olariu &copy; 2024
+                                    Ruxandra Olariu &copy; <span id="currentYear">
                                 </font>
                             </div>
                         </td>
@@ -325,5 +325,6 @@
             </td>
         </tr>
     </table>
+	<script> document.getElementById('currentYear').textContent = new Date().getFullYear(); </script>
 </body>
 </html>

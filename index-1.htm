@@ -115,7 +115,7 @@ African Art, Olivia Anna Remak, art for art's sake, Picasso, Dekooning, Vaukos, 
           <td>
             <div align="center">
               <p><br>
-                <font size="2">Ruxandra Olariu &copy; 2024</font></p>
+                <font size="2">Ruxandra Olariu &copy; <span id="currentYear"></font></p>
             </div>
           </td>
         </tr>
@@ -123,5 +123,6 @@ African Art, Olivia Anna Remak, art for art's sake, Picasso, Dekooning, Vaukos, 
     </td>
   </tr>
 </table>
+<script> document.getElementById('currentYear').textContent = new Date().getFullYear(); </script>
 </body>
 </html>
