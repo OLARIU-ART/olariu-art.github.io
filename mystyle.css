@@ -81,17 +81,21 @@ body {
   color: orange;
 }
 
-/***************************** copyright ***************************************************************/
-.footer {
-  position: absolute;
-  bottom: 10px; 
-  width: 99vw; 
-  text-align: center; 
-  font-size: 14px; 
-  color: orange;
-  font-weight: bold; /* Make button text bold */
+.carousel slide{
+  max-height: 70%;
 }
 
+/***************************** copyright footer section  *******************************************/
+.footer { 
+  background-color: black; 
+  color: orange;
+  text-align: center; 
+  width: 100%; 
+  padding: 10px 0; 
+  position: fixed; 
+  bottom: 0; 
+  left: 0; 
+}
 
 /***************************** title ***************************************************************/
 .titleText {
@@ -103,3 +107,23 @@ body {
   margin: 20px 0;
   display: block; /* Ensure the title takes its own line */
 }
+
+/***************************** personal statement ***************************************************************/
+.content{
+  width: 80%; /* Set the width to 70% of the page */ 
+  margin: 0 auto; /* Center the div horizontally */
+  font-size:1.2em
+}
+
+.section-title { 
+  font-size: 1.2em;
+  margin-top: 20px;
+  border-bottom: 1px solid #ccc; 
+  padding-bottom: 5px; 
+}
+
+
+
+
+ul { list-style-type: disc; } 
+ul ul { list-style-type: square; margin-left: 20px; }
