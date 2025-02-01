@@ -30,8 +30,8 @@ a{
   margin: 10px;
   font-size: 18px;
   text-decoration: none;
-  color: green;
-  background-color: darkorange;
+  color: red;
+  background-color: lightblue;
   border-radius: 5px;
   text-align: center;
   font-weight: bold; /* Make button text bold */
@@ -56,7 +56,7 @@ a{
 .horizontal-line { 
   width: 97%; 
   height: 3px; 
-  background-color: darkorange; 
+  background-color: red; 
   margin: 15px; 
 }
 
