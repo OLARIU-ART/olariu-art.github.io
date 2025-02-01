@@ -76,7 +76,7 @@ a{
   width: auto;
   height: 70vh;
   margin:auto;
-  border: 5px solid darkorange; /* Add a yellow frame */ 
+  border: 5px solid darkblue; /* Add a yellow frame */ 
   box-sizing: border-box; /* Ensure the border is included in the image dimensions */ 
 }
 
