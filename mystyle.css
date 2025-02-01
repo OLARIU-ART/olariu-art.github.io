@@ -21,7 +21,11 @@ body {
 }
 /********************************************************************************************/
 a{
-  color: green;
+  color: blue;
+}
+
+a:hover{
+  color: red;
 }
 
 .button {
@@ -171,19 +175,15 @@ ul ul { list-style-type: square; margin-left: 20px; }
 
 .homeText
 {
-  width: 40%; 
   margin: 0 auto; 
+
+  color: red;
+  font-family: 'Great Vibes', cursive;
+  font-weight: bold;
+  font-size: 3em; /* Adjust the font size as needed */
   text-align: center;
-  font-size:1.2em
-}
-
-
-.homeText2
-{
-  width: 40%; 
-  margin: 0 auto; 
-  text-align: right;
-  font-size:1em
+  margin: 20px 0;
+  display: block; /* Ensure the title takes its own line */
 }
 
 
